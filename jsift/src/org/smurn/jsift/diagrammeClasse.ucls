@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="org.smurn.jsift.TestUtils" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/TestUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="205" x="1510" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.smurn.jsift.BlockingImageObserver" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/BlockingImageObserver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="131" width="235" x="293" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.smurn.jsift.LinearUpScaler" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/LinearUpScaler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="132" x="121" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.smurn.jsift.ScaleSpaceFactoryImpl" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/ScaleSpaceFactoryImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="149" width="457" x="568" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.smurn.jsift.Subsampler" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/Subsampler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="148" x="1322" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="org.smurn.jsift.KeypointDetector" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/KeypointDetector.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="312" x="2461" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="org.smurn.jsift.LUSolver3" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/LUSolver3.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="186" x="1755" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.smurn.jsift.ScaleSpacePoint" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/ScaleSpacePoint.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="239" width="217" x="1065" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.smurn.jsift.OctaveFactoryImpl" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/OctaveFactoryImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="217" x="2204" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="org.smurn.jsift.ScaleSpaceFactory" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/ScaleSpaceFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="457" x="568" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="11" language="java" name="org.smurn.jsift.DownScaler" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/DownScaler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="148" x="1322" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="12" language="java" name="org.smurn.jsift.LinearSolver3" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/LinearSolver3.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="186" x="1714" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="org.smurn.jsift.Image" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/Image.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="653" width="276" x="1940" y="627"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="org.smurn.jsift.ExtremaDetector" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/ExtremaDetector.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="344" x="2461" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="org.smurn.jsift.ScaleSpace" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/ScaleSpace.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="157" x="1981" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" language="java" name="org.smurn.jsift.UpScaler" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/UpScaler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="132" x="121" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="17" language="java" name="org.smurn.jsift.Octave" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/Octave.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="185" width="224" x="1940" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="org.smurn.jsift.GaussianFilter" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/GaussianFilter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="167" width="185" x="2845" y="123"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="org.smurn.jsift.TestUtils.ImageMatcher" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/TestUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="131" width="164" x="1510" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="20" language="java" name="org.smurn.jsift.OctaveFactory" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/OctaveFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="217" x="2204" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="21" language="java" name="org.smurn.jsift.LowPassFilter" project="jsift" 
+    file="/jsift/src/org/smurn/jsift/LowPassFilter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="149" x="2845" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="22">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <nesting id="23">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="19"/>  
+  </nesting>  
+  <realization id="24">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="25">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="26" name="octaves">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="28">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <realization id="29">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="30">    
+    <bendpoint x="2023" y="608"/>    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="31" name="doGs">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="32" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="33">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <association id="34">    
+    <bendpoint x="2143" y="612"/>    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="35" name="scaleImages">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="36" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="37">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <association id="39">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="40" name="image">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="41" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
