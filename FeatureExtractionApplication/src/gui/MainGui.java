@@ -46,16 +46,18 @@ public class MainGui {
 	private JPanel panel_select_file;
 	JLabel label_img1, label_img2, label_descriptorResult, label_panorama;
 
-	/**
+	/*
 	 * Launch the application.
 	 */
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
 					MainGui window = new MainGui();
 					window.frame.setVisible(true);
-				} catch (Exception e) {
+				}
+				catch (Exception e) {
 					e.printStackTrace();
 				}
 			}
@@ -129,7 +131,7 @@ public class MainGui {
 		panel_main.add(panel, BorderLayout.SOUTH);
 		panel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
 
-		JButton button = new JButton("Original Image");
+		JButton button = new JButton("Images Originales");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				showImage(ImageData.img1, label_img1);
@@ -138,11 +140,11 @@ public class MainGui {
 		});
 		panel.add(button);
 
-		JButton button_1 = new JButton("1. Extract Feature");
+		JButton button_1 = new JButton("1. Extraction des caractéristiques");
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (ImageData.img1 == null || ImageData.img2 == null) {
-					JOptionPane.showMessageDialog(frame, "Please load image first");
+					JOptionPane.showMessageDialog(frame, "Veuillez charger les images");
 					return;
 				}
 
@@ -157,11 +159,11 @@ public class MainGui {
 		});
 		panel.add(button_1);
 
-		JButton btnDescribeFeature = new JButton("2. Describe Feature");
+		JButton btnDescribeFeature = new JButton("2. Comparaison des caractéristiques");
 		btnDescribeFeature.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if (ImageData.feaExtImg1 == null || ImageData.feaExtImg2 == null) {
-					JOptionPane.showMessageDialog(frame, "Please extract feature first");
+					JOptionPane.showMessageDialog(frame, "Veuillez utiliser l'Extraction des Caractéristiques");
 					return;
 				}
 				ImageData.feaDesImg = new FeatureDescriptionImage(ImageData.feaExtImg1, ImageData.feaExtImg2);
@@ -182,7 +184,7 @@ public class MainGui {
 		panel.add(btnPanorama);
 
 		JPanel panel_descriptor = new JPanel();
-		tabbedPane.addTab("Descriptor", null, panel_descriptor, null);
+		tabbedPane.addTab("Comparaison", null, panel_descriptor, null);
 		panel_descriptor.setLayout(new BorderLayout(0, 0));
 
 		label_descriptorResult = new JLabel("");
@@ -195,7 +197,7 @@ public class MainGui {
 		label_panorama = new JLabel("");
 		panel_panorama.add(label_panorama);
 
-		JButton btnLoadImage_1 = new JButton("Load Image 1");
+		JButton btnLoadImage_1 = new JButton("Charger Image G");
 		btnLoadImage_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				ImageData.img1 = showFileSelector(e);
@@ -215,13 +217,13 @@ public class MainGui {
 				}
 			}
 		});
-		comboBox.setModel(new DefaultComboBoxModel(new String[] { "---Please Select---", "po1.png/po2.png",
+		comboBox.setModel(new DefaultComboBoxModel(new String[] { "---Exemples---", "po1.png/po2.png",
 				"chu1.png/chu3.png", "till.png/box.png", "pan1.jpg/pan2.jpg", "OLAV.jpg/OLAV1.jpg", "p1.jpg/p2.jpg" }));
 		comboBox.setToolTipText("");
 		panel_select_file.add(comboBox);
 		panel_select_file.add(btnLoadImage_1);
 
-		JButton btnLoadImage_2 = new JButton("Load Image 2");
+		JButton btnLoadImage_2 = new JButton("Charger Image D");
 		btnLoadImage_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				ImageData.img2 = showFileSelector(e);
